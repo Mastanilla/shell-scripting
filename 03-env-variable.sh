@@ -26,4 +26,6 @@ echo "Gives the Current Working Dircetory of the Shell Script: $PWD"
 
 echo "Gives the Current User who is Running these Shell Scripts: $USER"
 
-echo "Gives the Current User who is Running these Shell Scripts: $HOME"
+echo "Gives the Current User Home directory who is Running these Shell Scripts: $HOME"
+
+echo "Print the Process Instance Id of Shell Script: $$"
