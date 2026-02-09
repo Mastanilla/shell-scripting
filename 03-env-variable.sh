@@ -23,3 +23,5 @@ echo "All variables passed to the Script: $*"
 echo "Give the current Shell Script file Name dynamically: $0"
 
 echo "Gives the Current Working Dircetory of the Shell Script: $PWD"
+
+echo "Gives the Current User who is Running these Shell Scripts: $USER"
