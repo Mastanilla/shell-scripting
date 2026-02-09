@@ -8,7 +8,7 @@ Date = $(date)
 
 STATRT_TIME=$(date +%s)
 
-sleep 10 
+# sleep 10 
 
 END_TIME=$(date +%s)
 
@@ -17,3 +17,7 @@ TOTAL_TIME=$(($END_TIME - $STATRT_TIME))
 echo "Script Executed Time in: $TOTAL_TIME Seconds"
 
 
+echo "All variables passed to the Script: $@"
+echo "All variables passed to the Script: $*"
+
+echo "Give the current Shell Script file Name dynamically: $0"
